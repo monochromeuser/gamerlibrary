@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="toppage.css">
+  <title>ゲーマー名鑑</title>
+  <!-- jQueryの読み込み -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+</head>
+<body>
+  <!-- script.jsの読み込み -->
+  <script src="script.js">
+
+  </script>
+
+  <!--ヘッダー-->
+  <header>
+    <div class="header-logo">
+      ゲーマー名鑑
+    </div>
+    <div class="header-list">
+      <ul>
+        <li class="header-item">ストリーマー</li>
+        <li class="header-item">プロゲーマー</li>
+        <li class="header-item">ゲーム</li>
+        <li class="header-item">デバイス</li>
+        <li class="header-item">ランク</li>
+        <li class="header-item">視聴者数ランキング</li>
+        <li class="header-item">配信サイト一覧</li>
+        <li class="header-item">お問い合わせ</li>
+      </ul>
+
+      <div class="last-update">
+        <img src="icon/update.png" alt="update" class="update-img">
+        <time id="modify">
+        </time>
+
+        <script type="text/javascript">
+        /* 更新日の取得 */
+        const last = new Date(document.lastModified);
+        const year = last.getFullYear();
+        const month = last.getMonth() + 1;
+        const date = last.getDate();
+        /* 日付を書き換える */
+        const target = document.getElementById('modify');
+        target.textContent = year + '-' + month + '-' + date;
+        </script>
+      </div>
+    </div>
+  </header>
+
+
+  <div class="gamer-toppage">
+    <ul class="toppage-box">
+      <li class="box-chart">
+        <!--日本のストリーマー一覧-->
+        <div class="header-logo-jp">
+          <div class="head-jp">┃</div> 日本のストリーマー
+        </div>
+        <ul class="gamer-chart">
+          <li>
+            <div class="box-title">StylishNoob</div>
+            <img src="gamer\streamer\japan\stylishnoob\stylishnoob.jpg" alt="stylishnoob">
+          </li>
+          <li>
+            <div class="box-title">SPYGEA</div>
+            <img src="gamer\streamer\japan\spygea\spygea.jpg" alt="spygea">
+          </li>
+          <li>
+            <div class="box-title">SHAKA</div>
+            <img src="gamer\streamer\japan\shaka\shaka.png" alt="shaka">
+          </li>
+        </ul>
+      </li>
+
+      <!--日本のプロゲーマー一覧-->
+      <li class="box-chart">
+        <div class="header-logo-jp">
+          <div class="head-jp">┃</div> 日本のプロゲーマー
+        </div>
+        <ul class="gamer-chart">
+          <li>
+            <div class="box-title">StylishNoob</div>
+            <img src="gamer\streamer\japan\stylishnoob\stylishnoob.jpg" alt="stylishnoob">
+          </li>
+          <li>
+            <div class="box-title">SPYGEA</div>
+            <img src="gamer\streamer\japan\spygea\spygea.jpg" alt="spygea">
+          </li>
+          <li>
+            <div class="box-title">SHAKA</div>
+            <img src="gamer\streamer\japan\shaka\shaka.png" alt="shaka">
+          </li>
+        </ul>
+      </li>
+
+      <!--海外のストリーマー一覧-->
+      <li class="box-chart">
+        <div class="header-logo-int">
+          <div class="head-int">┃</div> 海外のストリーマー
+        </div>
+        <ul class="gamer-chart">
+          <li>
+            <div class="box-title">StylishNoob</div>
+            <img src="gamer\streamer\japan\stylishnoob\stylishnoob.jpg" alt="stylishnoob">
+          </li>
+          <li>
+            <div class="box-title">SPYGEA</div>
+            <img src="gamer\streamer\japan\spygea\spygea.jpg" alt="spygea">
+          </li>
+          <li>
+            <div class="box-title">SHAKA</div>
+            <img src="gamer\streamer\japan\shaka\shaka.png" alt="shaka">
+          </li>
+        </ul>
+      </li>
+
+      <!--海外のプロゲーマー一覧-->
+      <li class="box-chart">
+        <div class="header-logo-int">
+          <div class="head-int">┃</div> 海外のプロゲーマー
+        </div>
+        <ul class="gamer-chart">
+          <li>
+            <div class="box-title">StylishNoob</div>
+            <img src="gamer\streamer\japan\stylishnoob\stylishnoob.jpg" alt="stylishnoob">
+          </li>
+          <li>
+            <div class="box-title">SPYGEA</div>
+            <img src="gamer\streamer\japan\spygea\spygea.jpg" alt="spygea">
+          </li>
+          <li>
+            <div class="box-title">SHAKA</div>
+            <img src="gamer\streamer\japan\shaka\shaka.png" alt="shaka">
+          </li>
+        </ul>
+      </li>
+    </ul>
+  </div>
+  <footer>
+  </footer>
+</body>
+</html>
