@@ -1,0 +1,130 @@
+/* 全体
+
+=================================================*/
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+html{
+  font-size: 62.5%;
+  font-family:  serif;
+  background-color: #f0f8ff;
+}
+
+li {
+  list-style: none;
+}
+
+/* ヘッダー部分
+
+=================================================*/
+header{
+  color: white;
+  height: 80px;
+  background-color: #12253f;
+  font-weight: bold;
+}
+
+.header-logo{
+  float: left;
+  font-size: 4rem;
+  text-shadow: 1px 2px 3px #808080;
+  line-height: 80px;
+  padding: 0px 40px;
+}
+
+.header-list li{
+  font-size: 1.4rem;
+  float: left;
+  padding: 00px 10px;
+  line-height: 80px;
+  height: 80px;
+}
+
+/* 最終更新日時表示
+
+=================================================*/
+.last-update{
+  float: right;
+  align-items: center;
+  display: flex;
+}
+
+#modify{
+  font-family: 'serif';
+  font-weight: bold;
+  font-size: 1.4rem;
+  color: #d6d6d6;
+}
+
+.last-update img{
+  width: 16px;
+  padding-right: 2px;
+  margin-bottom: 2px;
+}
+
+/* 小見出し
+
+=================================================*/
+.header-logo-jp {
+  font-size: 2rem;
+  padding: 15px 20px;
+  font-weight: bold;
+  background: #F06060;
+  margin: 10px 40px;
+  color: white;
+  float: left;
+}
+
+.header-logo-int {
+  font-size: 2rem;
+  padding: 15px 20px;
+  font-weight: bold;
+  background: #00ADA9;
+  margin: 10px 40px;
+  color: white;
+  float: left;
+}
+
+.head-jp{
+  display:inline-block;
+}
+
+.head-int{
+  display:inline-block;
+}
+
+/* ゲーマー一覧表示
+
+=================================================*/
+.toppage-box{
+  list-style-type: none;
+	padding-left: 0;
+  margin:auto;
+  width: 1500px
+}
+
+.gamer-toppage li{
+  float: left;
+  position: relative;
+  margin: auto;
+}
+
+.gamer-chart .box-title {
+  font-size: 1.2rem;
+  background: #004363;
+  padding: 2px;
+  text-align: center;
+  color: #FFF;
+  font-weight: bold;
+  letter-spacing: 0.05em;
+  font-family:  メイリオ;
+}
+
+.gamer-chart img{
+  width: 90px;
+  height: 110px;
+  object-fit: cover;
+  vertical-align: bottom;
+}
